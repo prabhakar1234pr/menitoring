@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output
+.next/
+out/
+dist/
+build/
+*.spec
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
