@@ -13,6 +13,9 @@ dist/
 build/
 *.spec
 
+# Next.js generated
+next-env.d.ts
+
 # Env / secrets
 .env
 .env.*
@@ -23,6 +26,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# Editor
+# Editor / local tooling
 .vscode/
 .idea/
+.claude/settings.local.json
